@@ -2,7 +2,6 @@
 namespace Sfp;
 
 class Rotate {
-
     // default rotate value
     private $rotate = 1;
 
@@ -27,7 +26,6 @@ class Rotate {
         if ($a == null) {
             return [];
         }
-
 
         $i = 0;
         while ($i < $this->rotate) {

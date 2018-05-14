@@ -5,6 +5,7 @@ class Math {
     public function execute() {
         $ftab = fopen("assets/tabular.csv", "r");
         
+        // return -1.0 if file does not exist
         if ($ftab == false) {
             return -1.0;
         }
@@ -34,8 +35,6 @@ class Math {
 
         return $sum/$count;
     }
-
-
 }
 
 $MyMath = new Math();
